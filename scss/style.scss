@@ -5,8 +5,41 @@
 /*
 !---------------------- Подключения шрифта -------------------!
 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;500;700&display=swap');
 
+/*
+
+font-family: 'Poppins';
+font-family: 'Roboto';
+
+*/
 /*
 !----------------------  -------------------!
 */
 
+/*
+!------------header----------------!
+*/
+@import "_header";
+
+/*
+!-------------main------------------!
+*/
+.main{
+  &__container{
+    max-width: 1224px;
+    margin: 0 auto;
+  }
+}
+/*
+!-------------hero------------------!
+*/
+@import "_hero";
+/*
+!-------------categories-----------!
+*/
+@import "_categories";
+/*
+!-------------products---------------!
+*/
+@import "_products";
