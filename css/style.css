@@ -98,7 +98,6 @@ font-family: 'Roboto';
   width: 1224px;
   margin: 0 auto;
   padding: 0px 24px;
-  border: 1px solid;
 }
 
 /*
@@ -110,7 +109,7 @@ font-family: 'Roboto';
   justify-content: space-between;
   padding: 12px 83px 12px 56px;
   position: relative;
-  background: #fafafa;
+  background: #fcfcfc;
 }
 .hero_right {
   position: relative;
@@ -147,10 +146,11 @@ font-family: 'Roboto';
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  background: blue;
+  background: rgb(243, 238, 238);
   top: 50%;
   left: 0;
   transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 .hero_button-right {
   display: flex;
@@ -161,10 +161,11 @@ font-family: 'Roboto';
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  background: blue;
+  background: rgb(243, 238, 238);
   top: 50%;
   right: -48px;
   transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 .hero__left {
   max-width: 444px;
