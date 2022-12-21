@@ -88,3 +88,78 @@ font-family: 'Roboto';
 /*
 !----------------------  -------------------!
 */
+/*
+!------------header----------------!
+*/
+header {
+  display: flex;
+  align-items: center;
+}
+
+.header__burger {
+  display: inline-flex;
+  padding: 44.67px 52.67px;
+  background: #232F3E;
+  cursor: pointer;
+}
+.header__burger-lines {
+  display: flex;
+  width: 26.67px;
+  height: 18.67px;
+}
+.header__burger-lines span {
+  display: flex;
+  width: 26.67px;
+  height: 2.65px;
+  background: #ffffff;
+  position: relative;
+  border-radius: 2px;
+}
+.header__burger-lines span::after, .header__burger-lines span::before {
+  content: "";
+  display: flex;
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  border-radius: 2px;
+  height: 2.65px;
+}
+.header__burger-lines span::after {
+  top: 8px;
+  width: 13.33px;
+}
+.header__burger-lines span::before {
+  top: -8px;
+  width: 18.67px;
+}
+.header__sidebar {
+  display: none;
+}
+.header__logo {
+  margin-left: 48px;
+  width: 106.15px;
+  height: 32px;
+  border: 1px solid;
+}
+.header__logo img {
+  width: 106.15px;
+  height: 32px;
+}
+/*
+!-------------main------------------!
+*/
+.main__container {
+  max-width: 1224px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/*
+!-------------hero------------------!
+*/
+/*
+!-------------categories-----------!
+*/
+/*
+!-------------products---------------!
+*/
