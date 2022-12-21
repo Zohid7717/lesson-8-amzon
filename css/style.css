@@ -285,11 +285,7 @@ body {
   z-index: 5;
   transition: 0.5s;
   row-gap: 7px;
-  padding: 0 18px;
-}
-.categories__list li a:hover {
-  height: 100%;
-  box-shadow: 1px 20px 50px -1px rgba(35, 47, 62, 0.16);
+  padding: 0 15px;
 }
 .categories__list li p {
   font-family: "Roboto";
@@ -297,6 +293,17 @@ body {
   font-size: 13px;
   line-height: 16px;
   color: #232F3E;
+}
+.categories__list li img {
+  flex: 0 0 auto;
+}
+.categories__list-box {
+  height: 160px;
+  transition: 0.5s;
+}
+.categories__list-box:hover {
+  height: 100%;
+  box-shadow: 1px 20px 50px -1px rgba(35, 47, 62, 0.16);
 }
 
 /*
