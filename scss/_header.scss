@@ -1,6 +1,10 @@
 header {
   display: flex;
   align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+
 }
 
 .header {
@@ -55,20 +59,95 @@ header {
     margin-left: 48px;
     width: 106.15px;
     height: 32px;
-    border: 1px solid ;
-    img{
+
+    img {
       width: 106.15px;
-        height: 32px;
+      height: 32px;
     }
   }
 
-  &__search {}
+  &__search {
+    display: flex;
+    height: 48px;
+    margin-left: 47.85px;
+    flex: 1 1 auto;
 
-  &__nav {}
+    form {
+      height: 100%;
+      font-family: 'Roboto';
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: rgba(35, 47, 62, 0.16);
+      background: rgba(242, 242, 242, 0.48);
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      flex: 1 1 auto;
+    }
 
-  &__user-icon {}
+    select {
+      padding-left: 13px;
+      height: 100%;
+      background: rgba(242, 242, 242, 0.48);
+    }
 
-  &_location {}
+    input {
+      height: 20px;
+      margin-left: 13px;
+      flex: 1 1 auto;
+      padding: 0 16px;
+      border-left: 1px solid rgba(35, 47, 62, 0.16);
+      background: rgba(242, 242, 242, 0.48);
+    }
+
+    button {
+      background: rgba(242, 242, 242, 0.48);
+      padding: 14px 24px;
+    }
+
+  }
+
+  &__nav {
+    display: flex;
+    margin-left: 68px;
+    align-items: center;
+
+    &>a {
+      padding: 12px 32px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #FFFFFF;
+      background: #232F3E;
+      margin-left: 24px;
+    }
+  }
+
+  &__user-icon {
+    height: 32px;
+    align-items: center;
+    padding-right: 23.33px;
+    display: flex;
+    column-gap: 36.33px;
+    border-right: 1px solid rgba(35, 47, 62, 0.16);
+  }
+
+  &_location {
+    margin-left: 23.12px;
+
+    a {
+      display: flex;
+      column-gap: 7.13px;
+      align-items: center;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #000000;
+    }
+
+  }
 }
 
 .sidebar {

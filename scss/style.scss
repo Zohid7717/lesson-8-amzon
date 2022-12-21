@@ -25,13 +25,18 @@ font-family: 'Roboto';
 /*
 !-------------main------------------!
 */
-.main{
-  &__container{
+body {
+  font-family: 'Roboto';
+}
+
+.main {
+  &__container {
     max-width: 1224px;
     margin: 0 auto;
     padding: 0 24px;
   }
 }
+
 /*
 !-------------hero------------------!
 */
