@@ -240,6 +240,65 @@ body {
 /*
 !-------------categories-----------!
 */
+.categories__title {
+  display: flex;
+  justify-content: space-between;
+}
+.categories__title h3 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.categories__title p {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #146EB4;
+}
+.categories__list {
+  margin-top: 28px;
+}
+.categories__list ul {
+  display: flex;
+  justify-content: space-between;
+}
+.categories__list li {
+  display: flex;
+  width: 100px;
+  height: 184px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.categories__list li a {
+  display: flex;
+  width: 100px;
+  height: 160px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: #faf7f7;
+  z-index: 5;
+  transition: 0.5s;
+  row-gap: 7px;
+  padding: 0 18px;
+}
+.categories__list li a:hover {
+  height: 100%;
+  box-shadow: 1px 20px 50px -1px rgba(35, 47, 62, 0.16);
+}
+.categories__list li p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #232F3E;
+}
+
 /*
 !-------------products---------------!
 */
