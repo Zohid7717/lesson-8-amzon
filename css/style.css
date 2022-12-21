@@ -163,16 +163,6 @@ font-family: 'Roboto';
   line-height: 16px;
   color: #232F3E;
 }
-.categories__list-shadow {
-  display: none;
-  position: absolute;
-  width: 80px;
-  height: 184px;
-  background: rgba(35, 47, 62, 0.16);
-  filter: blur(26px);
-  top: 20px;
-  left: 10px;
-}
 
 /*
 !-------------products---------------!
