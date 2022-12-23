@@ -88,6 +88,10 @@ font-family: 'Roboto';
 /*
 !----------------------  -------------------!
 */
+body {
+  font-family: "Roboto";
+}
+
 /*
 !------------header----------------!
 */
@@ -237,6 +241,133 @@ body {
 /*
 !-------------hero------------------!
 */
+.hero {
+  width: 1174px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 83px 12px 56px;
+  position: relative;
+  background: #fcfcfc;
+}
+.hero_right {
+  position: relative;
+}
+.hero_right img {
+  width: 417px;
+}
+.hero_right-blue {
+  display: flex;
+  width: 110px;
+  height: 110px;
+  background: rgba(20, 111, 180, 0.5803921569);
+  border-radius: 50%;
+  position: absolute;
+  top: 47px;
+  left: 26px;
+}
+.hero_right-yellow {
+  display: flex;
+  width: 110px;
+  height: 110px;
+  background: rgba(255, 153, 0, 0.5333333333);
+  border-radius: 50%;
+  position: absolute;
+  right: 11px;
+  bottom: 10px;
+}
+.hero_button-left {
+  display: flex;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  color: #000;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background: rgb(243, 238, 238);
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.hero_button-left:hover {
+  background: #146EB4;
+  color: #fcfcfc;
+}
+.hero_button-right {
+  display: flex;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  color: #000;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background: rgb(243, 238, 238);
+  top: 50%;
+  right: -48px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.hero_button-right:hover {
+  background: #146EB4;
+  color: #fcfcfc;
+}
+.hero__left {
+  max-width: 444px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  max-width: 43.47%;
+  row-gap: 16px;
+}
+.hero__left h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+}
+.hero__left h2 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FF9900;
+}
+.hero__left p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(35, 47, 62, 0.48);
+}
+.hero__left-button {
+  display: flex;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+}
+.hero__left-button a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #146EB4;
+  min-width: 124px;
+  min-height: 32px;
+  border: 1px solid #146EB4;
+  transition: 0.3s;
+}
+.hero__left-button a:hover {
+  background-color: #146EB4;
+  color: white;
+}
+
 /*
 !-------------categories-----------!
 */
