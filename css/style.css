@@ -157,7 +157,7 @@ i {
 h1 {
   font-family: "Poppins", sans-serif;
   margin-top: 11px;
-  width: 444px;
+  width: 500px;
   height: 116px;
   font-size: 49px;
 }
@@ -214,7 +214,7 @@ h1 {
 .right-side {
   position: absolute;
   top: 50%;
-  right: 0;
+  right: -3%;
   transform: translate(-50%, -50%);
 }
 
