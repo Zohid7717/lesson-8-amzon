@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -36,17 +30,14 @@ i {
 }
 
 .hero-left {
+  border: 1px solid ;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
-  height: 100%;
 }
 
-.hero-best {
-  width: 444px;
-  height: 292px;
-}
+.hero-best {}
 
 .sony {
   color: #FF9900;
@@ -55,56 +46,43 @@ i {
 h1 {
   font-family: 'Poppins', sans-serif;
   margin-top: 11px;
-  width: 444px;
-  height: 116px;
   font-size: 49px;
 }
 
 .text {
-  width: 440px;
-  height: 80px;
   font-size: 13px;
 
 }
 
 .btn {
   margin-top: 35px;
-
 }
 
 .btn-left {
-
   padding: 6px;
-  color: #fff;
-  background-color: #146EB4;
+  color: #146EB4;
   border: 2px solid #146EB4;
 }
 
 .btn-right {
   padding: 6px;
-  background-color: #fff;
   color: #146EB4;
   border: 2px solid #146EB4;
 }
 
 .btn-left:hover {
-
-  background-color: #075d82;
+  color: #fff;
+  background-color: #146EB4;
 }
 
 .btn-right:hover {
-  background-color: #888f92;
+  color: #fff;
+  background-color: #146EB4;
 }
 
 .hero-right {
   width: 50%;
   height: 100%;
-}
-
-.span-blue {
-  width: 110px;
-  height: 110px;
-  background-color: #146EB4;
 }
 
 .hero-img {
