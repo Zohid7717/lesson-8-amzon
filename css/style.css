@@ -105,6 +105,9 @@ font-family: 'Roboto';
 /*
 !-------------categories-----------!
 */
+.categories {
+  margin-top: 56px;
+}
 .categories__title {
   display: flex;
   justify-content: space-between;
