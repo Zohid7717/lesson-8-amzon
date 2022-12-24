@@ -1,0 +1,144 @@
+.products {
+  margin-top: 82px;
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      color: #000000;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #146EB4;
+    }
+  }
+
+  &__list {
+    ul {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    li {
+      display: flex;
+      flex: 0 1 23.72%;
+      position: relative;
+      height: 360px;
+    }
+  }
+
+  &__list-box {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 38px 16px 24px 16px;
+    background: rgba(242, 242, 242, 0.4);
+    position: absolute;
+    top: 0;
+    transition: 0.5s;
+    &:hover{
+      height: 400px;
+      top: -20px;
+      box-shadow: 0px 5px 15px 1px rgba(35, 47, 62, 0.16);
+    }
+    &:hover .products__list-button{
+      bottom: 0;
+    }
+  }
+
+  &__list-img {
+    display: flex;
+    align-items: start;
+    width: 200px;
+    height: 200px;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+
+  &__list-title {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    height: 114px;
+    overflow: hidden;
+
+    h3 {
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      color: rgba(35, 47, 62, 0.48);
+    }
+
+    &>p {
+      margin-top: 8px;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 16px;
+      color: #000000;
+    }
+  }
+
+  &__list-price {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      display: flex;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 16px;
+      color: #146EB4;
+    }
+  }
+
+  &__list-button {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    column-gap: 10px;
+    bottom: -90px;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+
+  &__list-add {}
+
+  &__list-view {}
+}
+
+.product {
+
+  &__btn {
+    width: 116px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #146EB4;
+    background: #FFFFFF;
+    border: 1px solid #146EB4;
+    transition: 0.5s;
+    &:hover{
+      background: #146EB4;
+      color: #FFFFFF;
+    }
+  }
+}
