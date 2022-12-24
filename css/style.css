@@ -420,6 +420,12 @@ body {
   transition: 0.5s;
   row-gap: 7px;
   padding: 0 15px;
+  height: 160px;
+  transition: 0.5s;
+}
+.categories__list li a:hover {
+  height: 100%;
+  box-shadow: 1px 20px 50px -1px rgba(35, 47, 62, 0.16);
 }
 .categories__list li p {
   font-family: "Roboto";
@@ -430,14 +436,6 @@ body {
 }
 .categories__list li img {
   flex: 0 0 auto;
-}
-.categories__list-box {
-  height: 160px;
-  transition: 0.5s;
-}
-.categories__list-box:hover {
-  height: 100%;
-  box-shadow: 1px 20px 50px -1px rgba(35, 47, 62, 0.16);
 }
 
 /*
