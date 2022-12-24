@@ -443,6 +443,7 @@ body {
 */
 .products {
   margin-top: 82px;
+  padding-bottom: 78px;
 }
 .products__title {
   display: flex;
